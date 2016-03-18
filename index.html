@@ -1,0 +1,43 @@
+<html ng-app="cdg">
+<head>
+	<title>Clube dos Geeks</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
+	<!-- jQuery -->
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+	<!-- Bootstrap -->
+	<script src="bootstrap/js/bootstrap.js"></script>
+
+	<!-- Angular -->
+	<script src="node_modules/angular/angular.js"></script>
+
+	<!-- App -->
+	<script src="app.js"></script>
+
+	<!-- Controllers -->
+	<script src="controllers/pessoaController.js"></script>
+
+	<!-- Services -->
+	<script src="services/dbService.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#/">
+					Clube dos Geeks
+				</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      			<ul class="nav navbar-nav">
+      				<li>
+      					<a href="#/pessoas">Pessoas</a>
+      				</li>
+      			</ul>
+      		</div>
+		</div>
+	</nav>
+	<div ng-view=""></div>
+</body>
+</html>
