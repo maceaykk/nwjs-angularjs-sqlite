@@ -19,6 +19,7 @@
 				<th></th>
 			</thead>
 			<tbody>
+				<!-- Listagem -->
 				<tr dir-paginate="pessoa in pessoas|filter:pesquisar|itemsPerPage:8">
 					<td>{{pessoa.id}}</td>
 					<td>{{pessoa.nome}}</td>
@@ -34,6 +35,7 @@
 		</table>
 	</div>
 </div>
+<!-- Paginação -->
 <div class="row">
 	<div class="col-md-12 text-center">
 		<dir-pagination-controls
@@ -48,7 +50,7 @@
 	</div>
 </div>
 
-<!-- Modal Cadastro -->
+<!-- Modal Cadastro e Edição -->
 <div class="modal fade" id="modalPessoa" tabindex="-1" role="dialog" >
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
