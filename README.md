@@ -6,7 +6,7 @@ Exemplo para tutorial no <a href="clubedosgeeks.com.br/web-design/html/aplicativ
 ## Usando
 1- Clone este repositório no seu computador:
 ```shell 
-clone https://github.com/ClubeDosGeeksCoding/nwjs-angularjs-sqlite 
+git clone https://github.com/ClubeDosGeeksCoding/nwjs-angularjs-sqlite 
 ```
 2 - Instale os pacotes 
 ```shell 
