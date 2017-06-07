@@ -1,8 +1,9 @@
 {
   "name": "nwjs-angular",
   "version": "1.0.0",
-  "description": "Aplicação exemplo com AngularJS, NwJS, SQLite e Bootstrap",
+  "description": "Aplication exemplo com AngularJS, NwJS, SQLite e Bootstrap",
   "main": "index.html",
+  /*"chromium-args": "--mixed-context",*/
   "author": "Clube dos Geeks",
   "window": {
     "toolbar": false,
@@ -14,6 +15,9 @@
     "angular": "^1.5.1",
     "angular-route": "^1.5.1",
     "sqlite-sync": "^0.2.0",
-    "angular-utils-pagination":"^0.11.0"
+    "angular-utils-pagination": "^0.11.0"
+  },
+  "devDependencies": {
+    "jquery": "^3.2.1"
   }
 }

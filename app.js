@@ -1,4 +1,4 @@
-var app = angular.module('cdg', [require('angular-route'),'angularUtils.directives.dirPagination']);
+var app = angular.module('cdg', ['ngRoute','angularUtils.directives.dirPagination']);
 
 app.config(function($routeProvider){
 	$routeProvider.when("/pessoas", {
